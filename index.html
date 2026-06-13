@@ -2,120 +2,233 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Dona Sangre Madrid — Inicio</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #f9fafb;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      min-height: 100vh;
-    }
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Vena Altruista Madrid — App para donantes en la Comunidad de Madrid</title>
+  <meta name="description" content="Lleva el control de tus donaciones de sangre en la Comunidad de Madrid. Registra tu historial, localiza unidades móviles de donación y recibe notificaciones cuando puedas volver a donar.">
+  <meta name="keywords" content="donar sangre Madrid, donacion de sangre Madrid, puntos de donacion Madrid, app donar sangre, unidades moviles donacion sangre, donante de sangre madrid">
+  <meta name="author" content="Carlisoft">
+  <link rel="canonical" href="https://carlisoft.github.io/Web-DonaSangreMadrid/">
 
-    main {
-      max-width: 800px;
-      background: #fff;
-      padding: 40px;
-      margin: 40px 20px;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      text-align: center;
-    }
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://carlisoft.github.io/Web-DonaSangreMadrid/">
+  <meta property="og:title" content="Vena Altruista Madrid — App de control y puntos de donación de sangre">
+  <meta property="og:description" content="Lleva el historial de tus donaciones, localiza los puntos de donación móvil en Madrid y configura avisos inteligentes para salvar vidas.">
+  <meta property="og:image" content="https://carlisoft.github.io/Web-DonaSangreMadrid/app_mockup.png">
 
-    h1 {
-      color: #b30000;
-      margin-bottom: 0.5em;
-      font-size: 2em;
-    }
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://carlisoft.github.io/Web-DonaSangreMadrid/">
+  <meta property="twitter:title" content="Vena Altruista Madrid — App de control y puntos de donación de sangre">
+  <meta property="twitter:description" content="Lleva el historial de tus donaciones, localiza los puntos de donación móvil en Madrid y configura avisos inteligentes para salvar vidas.">
+  <meta property="twitter:image" content="https://carlisoft.github.io/Web-DonaSangreMadrid/app_mockup.png">
 
-    p, div {
-      line-height: 1.6;
-      font-size: 1.05em;
-      text-align: justify;
-    }
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
 
-    .features {
-      margin-top: 1.5em;
-      text-align: left;
-    }
+  <!-- Local Premium Styling -->
+  <link rel="stylesheet" href="styles.css">
 
-    .features br {
-      line-height: 1.8;
-    }
-
-    .benefits, .about {
-      margin-top: 1.5em;
-      text-align: left;
-    }
-
-    a {
-      color: #b30000;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      margin-top: 2em;
-      text-align: center;
-      color: #777;
-      font-size: 0.9em;
-    }
-
-    @media (max-width: 600px) {
-      main {
-        padding: 25px;
-      }
-      h1 {
-        font-size: 1.6em;
-      }
-    }
-  </style>
+  <!-- Schema.org Structured Data for MobileApp (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Vena Altruista Madrid",
+    "operatingSystem": "Android",
+    "applicationCategory": "HealthApplication",
+    "description": "Lleva el control de tus donaciones de sangre en la Comunidad de Madrid. Registra tu historial, localiza puntos móviles de donación y recibe alertas.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    },
+    "installUrl": "https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid"
+  }
+  </script>
 </head>
 <body>
-  <main>
-    <h1>Dona Sangre Madrid</h1>
 
-    <p style="text-align:center; color:#666;">
-      ¿Donas sangre en la Comunidad de Madrid?<br>
-      Esta app te ayuda a llevar el control de tus donaciones, encontrar puntos móviles donde donar y recibir recordatorios cuando te toque volver a hacerlo.
-    </p>
-
-    <div class="features">
-      <h2 style="color:#b30000; border-bottom:2px solid #b30000; padding-bottom:4px;">Con esta aplicación podrás:</h2>
-      <p>📅 Registrar tu historial de donaciones de forma sencilla y ordenada.<br>
-         🔔 Recibir notificaciones y recordatorios cuando ya puedas volver a donar.<br>
-         📍 Localizar los puntos de donación móvil en la Comunidad de Madrid.<br>
-         📊 Llevar un seguimiento de tu compromiso solidario, viendo cuántas veces has donado y cuándo fue la última vez.<br>
-         ☁️ Hacer copias de seguridad en Google Drive, para que no pierdas tus datos aunque cambies de dispositivo.</p>
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="./index.html" class="logo">
+        <img src="logo.jpg" alt="Vena Altruista Madrid Logo" style="width: 36px; height: 36px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(211, 24, 53, 0.25);">
+        <span>Vena Altruista Madrid</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#features" class="nav-link">Características</a></li>
+        <li><a href="#venito" class="nav-link">Chat Venito</a></li>
+        <li><a href="#faq" class="nav-link">Preguntas Frecuentes</a></li>
+        <li><a href="./privacy.html" class="nav-link">Privacidad</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="nav-btn">Descargar App</a></li>
+      </ul>
     </div>
+  </header>
 
-    <div class="benefits">
-      <h2 style="color:#b30000; border-bottom:2px solid #b30000; padding-bottom:4px;">✅ Beneficios</h2>
-      <p>
-        • Nunca olvidarás tu próxima donación.<br>
-        • Tendrás todo tu historial de donaciones en un solo lugar.<br>
-        • Contribuirás a salvar vidas de manera organizada y responsable.<br>
-        • Siempre tendrás tus datos seguros y disponibles gracias a Google Drive.
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="badge">
+        <span>❤️ Salva Vidas en Madrid</span>
+      </div>
+      <h1 class="hero-title">Controla tus donaciones y encuentra <span>dónde donar</span></h1>
+      <p class="hero-desc">
+        La aplicación móvil diseñada para los donantes de sangre en la Comunidad de Madrid. Registra tu historial, encuentra unidades móviles y recibe recordatorios personalizados cuando estés listo para volver a donar.
       </p>
+      <div class="hero-ctas">
+        <!-- Official Google Play Badge SVG/Image -->
+        <a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="google-play-badge" id="cta-hero-download">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
+        </a>
+        <a href="#features" class="btn-secondary">Saber más</a>
+      </div>
     </div>
-
-    <div class="about">
-      <h2 style="color:#b30000; border-bottom:2px solid #b30000; padding-bottom:4px;">🌍 Pensada para ti</h2>
-      <p>La app está diseñada especialmente para los donantes de la Comunidad de Madrid, con información actualizada y recordatorios adaptados a los tiempos de espera entre donaciones que tú elijas.</p>
+    <div class="hero-image">
+      <div class="hero-image-bg"></div>
+      <img src="app_mockup.png" alt="Vena Altruista Madrid App Mockup" class="hero-mockup">
     </div>
+  </section>
 
-    <footer>
-      <p><a href="./privacy.html">Política de privacidad</a></p>
-      <small>© 2025 Dona Sangre Madrid</small>
-    </footer>
-  </main>
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge" style="align-self: center;">Funcionalidades</span>
+        <h2 class="section-title">Todo lo que necesitas como donante habitual</h2>
+        <p class="section-desc">Diseñado para ser simple, privado y útil. Con herramientas que te ayudan a planificar tu próxima donación.</p>
+      </div>
+      
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">📅</div>
+          <h3>Registro de Historial</h3>
+          <p>Apunta la fecha de cada donación de forma sencilla y ten siempre a mano tu recorrido solidario y tu número de donante.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">🔔</div>
+          <h3>Recordatorios Inteligentes</h3>
+          <p>Configura recordatorios y recibe una notificación directa en tu móvil cuando se cumpla el periodo de espera recomendado para volver a donar.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">📍</div>
+          <h3>Puntos de Donación Móvil</h3>
+          <p>Encuentra dónde están las unidades móviles de donación de la Comunidad de Madrid hoy mismo para planificar tu visita.</p>
+        </div>
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">☁️</div>
+          <h3>Copia en Google Drive</h3>
+          <p>Mantén tus datos seguros haciendo copias de seguridad en tu cuenta personal de Google Drive. Tus datos siempre estarán bajo tu control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Venito AI Section -->
+  <section id="venito" class="venito-section">
+    <div class="hero-image">
+      <div class="hero-image-bg"></div>
+      <img src="venito_mockup.png" alt="Venito Chat IA Mockup" class="venito-mockup">
+    </div>
+    <div class="venito-content">
+      <div class="badge">
+        <span>🤖 Inteligencia Artificial Local</span>
+      </div>
+      <h2 class="section-title">Pregúntale a Venito: IA Local y Privada</h2>
+      <p class="hero-desc">
+        Vena Altruista Madrid incluye de forma totalmente integrada a <strong>Venito</strong>, un asistente de IA conversacional que se ejecuta 100% de manera local y offline en tu dispositivo.
+      </p>
+      <ul class="venito-features">
+        <li>
+          <span style="font-size: 1.5rem;">🔒</span>
+          <div>
+            <strong>Privacidad Absoluta:</strong> Al ejecutarse de forma local, ninguna conversación o dato se envía a internet ni se comparte con servidores externos.
+          </div>
+        </li>
+        <li>
+          <span style="font-size: 1.5rem;">💡</span>
+          <div>
+            <strong>Resuelve tus Dudas al Instante:</strong> Pregúntale a Venito sobre requisitos médicos para donar, tiempos de espera recomendados, qué comer antes de una extracción y más.
+          </div>
+        </li>
+        <li>
+          <span style="font-size: 1.5rem;">📍</span>
+          <div>
+            <strong>Consulta Puntos de Donación:</strong> Pregunta directamente a Venito para informarte sobre los puntos de donación fijos o móviles en la Comunidad de Madrid.
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA Banner Section -->
+  <section class="cta-banner">
+    <div class="cta-content">
+      <h2>¿Listo para tu próxima donación?</h2>
+      <p>Descarga Vena Altruista Madrid de forma totalmente gratuita y comienza a organizar tu compromiso solidario.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="google-play-badge" id="cta-middle-download">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
+      </a>
+    </div>
+  </section>
+
+  <!-- Info & FAQ Section (Boosts SEO with relevant keywords) -->
+  <section id="faq" class="info-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge" style="align-self: center;">Información de Utilidad</span>
+        <h2 class="section-title">Preguntas Frecuentes sobre la Donación de Sangre</h2>
+        <p class="section-desc">Resuelve tus dudas sobre los requisitos en la Comunidad de Madrid y el uso de nuestra app.</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>👤 ¿Cuáles son los requisitos básicos para donar en Madrid?</h3>
+          <p>Por lo general, debes tener entre 18 y 65 años, pesar más de 50 kg, no estar en ayunas y gozar de buena salud en general. En cada punto de donación te realizarán un breve cuestionario médico confidencial.</p>
+        </div>
+        <div class="faq-item">
+          <h3>⏳ ¿Cuánto tiempo hay que esperar entre donaciones?</h3>
+          <p>Los hombres pueden donar hasta 6 veces al año y las mujeres hasta 4 veces. El intervalo mínimo obligatorio entre donaciones de sangre total es de 2 meses (60 días).</p>
+        </div>
+        <div class="faq-item">
+          <h3>🔒 ¿Mis datos están seguros en la app?</h3>
+          <p>Sí, absolutamente. La aplicación no recopila tus datos personales en ningún servidor externo. Todo se guarda localmente en tu teléfono y las copias de seguridad se almacenan en tu propio Google Drive privado.</p>
+        </div>
+        <div class="faq-item">
+          <h3>📍 ¿Cómo se actualizan los puntos móviles?</h3>
+          <p>La aplicación te permite consultar de manera sencilla los puntos móviles y fijos de donación activos en la Comunidad de Madrid, facilitando que encuentres la unidad móvil más cercana a tu casa o lugar de trabajo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Vena Altruista Madrid Logo" style="width: 32px; height: 32px; border-radius: 8px; object-fit: cover;">
+          <span>Vena Altruista Madrid</span>
+        </div>
+        <div class="footer-links">
+          <a href="#features" class="footer-link">Características</a>
+          <a href="#venito" class="footer-link">Chat Venito</a>
+          <a href="#faq" class="footer-link">Preguntas Frecuentes</a>
+          <a href="./privacy.html" class="footer-link">Política de Privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Vena Altruista Madrid. Todos los derechos reservados.</p>
+        <p>Esta aplicación no está vinculada oficialmente con el Centro de Transfusión de la Comunidad de Madrid. Su propósito es servir de utilidad organizativa para los donantes.</p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
