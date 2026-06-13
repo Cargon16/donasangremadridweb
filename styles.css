@@ -80,6 +80,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -136,6 +137,41 @@ header {
   background: var(--primary-hover);
   color: white;
   transform: translateY(-2px);
+}
+
+/* Hamburger toggle - hidden on desktop */
+.nav-toggle {
+  display: none;
+}
+
+.nav-burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.nav-burger span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: var(--text-primary);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.nav-toggle:checked ~ .nav-burger span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.nav-toggle:checked ~ .nav-burger span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle:checked ~ .nav-burger span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 /* Hero Section */
@@ -682,15 +718,46 @@ footer {
     max-width: 280px;
     display: flex;
     justify-content: center;
+    height: auto;
   }
 
   .google-play-badge img {
     width: 100%;
     height: auto;
+    aspect-ratio: 250 / 60;
+    object-fit: contain;
+  }
+
+  .nav-burger {
+    display: flex;
   }
 
   .nav-menu {
-    display: none; /* simple hidden menu on mobile, or clean list */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--card-bg);
+    padding: 0 24px;
+    gap: 16px;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: var(--transition);
+  }
+
+  .nav-toggle:checked ~ .nav-menu {
+    max-height: 400px;
+    opacity: 1;
+    padding: 16px 24px 24px;
+  }
+
+  .nav-btn {
+    align-self: flex-start;
   }
 
   .legal-card {
@@ -711,5 +778,11 @@ footer {
     flex-direction: column;
     gap: 16px;
     text-align: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-mockup, .logo svg {
+    animation: none;
   }
 }
