@@ -781,6 +781,187 @@ footer {
   }
 }
 
+/* Madrid Donation Guide & SEO Components */
+.madrid-guide-section {
+  padding: 80px 24px;
+  background: #ffffff;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.madrid-stats-banner {
+  background: linear-gradient(135deg, var(--primary-light) 0%, #fff 100%);
+  border: 1px solid rgba(211, 24, 53, 0.15);
+  border-radius: var(--radius-md);
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 56px;
+  box-shadow: var(--card-shadow);
+}
+
+.madrid-stat-highlight {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.madrid-stat-number {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+}
+
+.madrid-stat-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.madrid-stat-text {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 550px;
+}
+
+.points-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.point-card {
+  background: var(--bg-gradient);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 36px 30px;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.point-card:hover {
+  transform: translateY(-6px);
+  background: #ffffff;
+  border-color: rgba(211, 24, 53, 0.25);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.point-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.point-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.point-card h3 {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+}
+
+.point-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.point-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.point-card li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.point-card li::before {
+  content: '✓';
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* Requirements Section */
+.requirements-section {
+  padding: 80px 24px;
+  background: var(--bg-gradient);
+}
+
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.req-card {
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 32px 24px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: var(--transition);
+}
+
+.req-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(211, 24, 53, 0.2);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.req-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.req-card h3 {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+}
+
+.req-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+@media (max-width: 768px) {
+  .madrid-stats-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+  }
+  
+  .points-grid, .requirements-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-mockup, .logo svg {
     animation: none;

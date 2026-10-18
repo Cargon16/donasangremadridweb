@@ -5,24 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Meta Tags -->
-  <title>Vena Altruista Madrid — App para donantes en la Comunidad de Madrid</title>
-  <meta name="description" content="Lleva el control de tus donaciones de sangre en la Comunidad de Madrid. Registra tu historial, localiza unidades móviles de donación y recibe notificaciones cuando puedas volver a donar.">
-  <meta name="keywords" content="donar sangre Madrid, donacion de sangre Madrid, puntos de donacion Madrid, app donar sangre, unidades moviles donacion sangre, donante de sangre madrid">
+  <title>Dona Sangre Madrid | Puntos de Donación, Requisitos y App Vena Altruista</title>
+  <meta name="description" content="Información completa para donar sangre en la Comunidad de Madrid: puntos fijos en hospitales, unidades móviles, horarios y requisitos. Descarga la app Vena Altruista Madrid para gestionar tu historial y alertas.">
+  <meta name="keywords" content="dona sangre madrid, donacion de sangre madrid, donar sangre madrid, puntos de donacion madrid, requisitos donar sangre madrid, unidades moviles donacion sangre madrid, donde donar sangre madrid, app donar sangre madrid, centro de transfusion madrid">
   <meta name="author" content="Carlisoft">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://carlisoft.github.io/Web-DonaSangreMadrid/">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://carlisoft.github.io/Web-DonaSangreMadrid/">
-  <meta property="og:title" content="Vena Altruista Madrid — App de control y puntos de donación de sangre">
-  <meta property="og:description" content="Lleva el historial de tus donaciones, localiza los puntos de donación móvil en Madrid y configura avisos inteligentes para salvar vidas.">
+  <meta property="og:title" content="Dona Sangre Madrid | Puntos de Donación, Requisitos y App Vena Altruista">
+  <meta property="og:description" content="Guía completa para donar sangre en Madrid: puntos en hospitales, unidades móviles, requisitos y control inteligente de donaciones con la app Vena Altruista.">
   <meta property="og:image" content="https://carlisoft.github.io/Web-DonaSangreMadrid/app_mockup.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://carlisoft.github.io/Web-DonaSangreMadrid/">
-  <meta property="twitter:title" content="Vena Altruista Madrid — App de control y puntos de donación de sangre">
-  <meta property="twitter:description" content="Lleva el historial de tus donaciones, localiza los puntos de donación móvil en Madrid y configura avisos inteligentes para salvar vidas.">
+  <meta property="twitter:title" content="Dona Sangre Madrid | Puntos de Donación, Requisitos y App Vena Altruista">
+  <meta property="twitter:description" content="Guía completa para donar sangre en Madrid: puntos en hospitales, unidades móviles, requisitos y control inteligente de donaciones con la app Vena Altruista.">
   <meta property="twitter:image" content="https://carlisoft.github.io/Web-DonaSangreMadrid/app_mockup.png">
 
   <!-- Favicon -->
@@ -31,21 +32,93 @@
   <!-- Local Premium Styling -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- Schema.org Structured Data for MobileApp (SEO) -->
+  <!-- Schema.org Structured Data (WebSite, MobileApplication & FAQPage for Rich Snippets) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MobileApplication",
-    "name": "Vena Altruista Madrid",
-    "operatingSystem": "Android",
-    "applicationCategory": "HealthApplication",
-    "description": "Lleva el control de tus donaciones de sangre en la Comunidad de Madrid. Registra tu historial, localiza puntos móviles de donación y recibe alertas.",
-    "offers": {
-      "@type": "Offer",
-      "price": "0.00",
-      "priceCurrency": "EUR"
-    },
-    "installUrl": "https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://carlisoft.github.io/Web-DonaSangreMadrid/#website",
+        "url": "https://carlisoft.github.io/Web-DonaSangreMadrid/",
+        "name": "Dona Sangre Madrid — Vena Altruista",
+        "description": "Guía informativa sobre la donación de sangre en la Comunidad de Madrid, puntos de donación, requisitos y app de gestión de donantes.",
+        "inLanguage": "es"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://carlisoft.github.io/Web-DonaSangreMadrid/#app",
+        "name": "Vena Altruista Madrid",
+        "alternateName": [
+          "Dona Sangre Madrid",
+          "Donación de Sangre Madrid",
+          "App Donar Sangre Madrid"
+        ],
+        "operatingSystem": "Android",
+        "applicationCategory": "HealthApplication",
+        "description": "Lleva el control de tus donaciones de sangre en la Comunidad de Madrid. Registra tu historial, localiza puntos móviles de donación y recibe alertas.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.00",
+          "priceCurrency": "EUR"
+        },
+        "installUrl": "https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://carlisoft.github.io/Web-DonaSangreMadrid/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Dónde donar sangre en la Comunidad de Madrid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Puedes donar sangre en más de 30 salas de donación en hospitales de la Comunidad de Madrid (como La Paz, 12 de Octubre, Gregorio Marañón o Ramón y Cajal), en el Centro de Transfusión (Valdebernardo) y en las unidades móviles de Cruz Roja y de la Comunidad de Madrid distribuidas diariamente por calles y municipios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuáles son los requisitos básicos para donar sangre en Madrid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Debes tener entre 18 y 65 años, pesar más de 50 kg, gozar de buena salud en general, no estar en ayunas y presentar un documento oficial de identidad en vigor (DNI, NIE o pasaporte)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tiempo hay que esperar entre una donación de sangre y otra?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El intervalo mínimo obligatorio entre dos donaciones de sangre total es de 2 meses (60 días). En España y la Comunidad de Madrid, los hombres pueden donar hasta 6 veces al año y las mujeres hasta 4 veces al año."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se puede donar sangre si me he hecho un tatuaje o piercing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, es totalmente posible donar sangre tras hacerse un tatuaje, piercing o micropigmentación, pero es necesario esperar un periodo de seguridad de 4 meses desde que se realizó."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo me ayuda la aplicación Vena Altruista Madrid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La app Vena Altruista te permite registrar cada una de tus extracciones, calcular de forma automática la fecha exacta en la que vuelves a estar apto para donar, localizar puntos de donación móviles cercanos y consultar dudas con su asistente privado local Venito."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Mis datos personales y médicos están seguros en la app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, la privacidad es absoluta. La app no envía datos a ningún servidor externo de terceros. Toda la información se guarda únicamente en tu teléfono móvil y, opcionalmente, puedes respaldarla en tu propia cuenta personal de Google Drive."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -64,9 +137,11 @@
 	  </label>
 
 	  <ul class="nav-menu">
-		<li><a href="#features" class="nav-link">Características</a></li>
-		<li><a href="#venito" class="nav-link">Chat Venito</a></li>
-		<li><a href="#faq" class="nav-link">Preguntas Frecuentes</a></li>
+		<li><a href="#puntos" class="nav-link">Dónde Donar</a></li>
+		<li><a href="#requisitos" class="nav-link">Requisitos</a></li>
+		<li><a href="#features" class="nav-link">La App</a></li>
+		<li><a href="#venito" class="nav-link">Asistente Venito</a></li>
+		<li><a href="#faq" class="nav-link">Preguntas</a></li>
 		<li><a href="./privacy.html" class="nav-link">Privacidad</a></li>
 		<li><a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="nav-btn">Descargar App</a></li>
 	  </ul>
@@ -77,18 +152,18 @@
   <section class="hero">
     <div class="hero-content">
       <div class="badge">
-        <span>❤️ Salva Vidas en Madrid</span>
+        <span>❤️ Donación de Sangre en la Comunidad de Madrid</span>
       </div>
-      <h1 class="hero-title">Controla tus donaciones y encuentra <span>dónde donar</span></h1>
+      <h1 class="hero-title">Dona Sangre en Madrid: <span>Puntos de donación, requisitos y app</span></h1>
       <p class="hero-desc">
-        La aplicación móvil diseñada para los donantes de sangre en la Comunidad de Madrid. Registra tu historial, encuentra unidades móviles y recibe recordatorios personalizados cuando estés listo para volver a donar.
+        Descubre dónde donar sangre hoy en la Comunidad de Madrid, conoce los requisitos oficiales para donar y organiza tu compromiso solidario con <strong>Vena Altruista Madrid</strong>, la app para donantes habituales.
       </p>
       <div class="hero-ctas">
         <!-- Official Google Play Badge SVG/Image -->
         <a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="google-play-badge" id="cta-hero-download">
           <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
         </a>
-        <a href="#features" class="btn-secondary">Saber más</a>
+        <a href="#puntos" class="btn-secondary">Dónde donar en Madrid</a>
       </div>
     </div>
     <div class="hero-image">
@@ -97,13 +172,116 @@
     </div>
   </section>
 
-  <!-- Features Section -->
+  <!-- Madrid Donation Guide & Points Section (Directly answers search intent) -->
+  <section id="puntos" class="madrid-guide-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge" style="align-self: center;">Guía Madrid</span>
+        <h2 class="section-title">¿Dónde donar sangre en la Comunidad de Madrid?</h2>
+        <p class="section-desc">Madrid cuenta con una extensa red de puntos fijos y unidades móviles para que donar sangre sea rápido, cómodo y cercano.</p>
+      </div>
+
+      <!-- Stat Highlight Banner -->
+      <div class="madrid-stats-banner">
+        <div class="madrid-stat-highlight">
+          <span class="madrid-stat-number">900</span>
+          <span class="madrid-stat-label">Donaciones diarias necesarias</span>
+        </div>
+        <p class="madrid-stat-text">
+          Cada día se necesitan una media de <strong>900 donaciones de sangre en Madrid</strong> para cubrir intervenciones quirúrgicas, tratamientos oncológicos, urgencias y trasplantes en los hospitales de la región.
+        </p>
+      </div>
+
+      <div class="points-grid">
+        <!-- Point 1 -->
+        <div class="point-card">
+          <div class="point-card-header">
+            <span class="point-badge">Puntos Fijos</span>
+          </div>
+          <h3>Hospitales de la Comunidad de Madrid</h3>
+          <p>Más de 30 hospitales públicos y privados cuentan con salas de donación estables de lunes a sábado con amplios horarios.</p>
+          <ul>
+            <li>La Paz, 12 de Octubre, Gregorio Marañón</li>
+            <li>Ramón y Cajal, Clínico San Carlos, La Princesa</li>
+            <li>Aparcamiento gratuito para donantes en la mayoría de hospitales</li>
+          </ul>
+        </div>
+
+        <!-- Point 2 -->
+        <div class="point-card">
+          <div class="point-card-header">
+            <span class="point-badge">En la calle</span>
+          </div>
+          <h3>Unidades Móviles en Madrid y Municipios</h3>
+          <p>Autobuses de donación de la Comunidad de Madrid y Cruz Roja se desplazan diariamente por zonas concurridas y localidades.</p>
+          <ul>
+            <li>Callao, Puerta del Sol y Nuevos Ministerios</li>
+            <li>Campus universitarios y centros comerciales</li>
+            <li>Rutas semanales por municipios de toda la comunidad</li>
+          </ul>
+        </div>
+
+        <!-- Point 3 -->
+        <div class="point-card">
+          <div class="point-card-header">
+            <span class="point-badge">Sede Central</span>
+          </div>
+          <h3>Centro de Transfusión de Madrid</h3>
+          <p>La sede central de transfusión coordina todo el stock de sangre de la región y dispone de amplias salas de extracción.</p>
+          <ul>
+            <li>Ubicado en Valdebernardo (Av. de la Democracia s/n)</li>
+            <li>Donación de sangre total y aféresis / plasma</li>
+            <li>Teléfono gratuito de información oficial: 900 30 35 30</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Requirements Section (Official blood donation criteria) -->
+  <section id="requisitos" class="requirements-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge" style="align-self: center;">Criterios Oficiales</span>
+        <h2 class="section-title">Requisitos para donar sangre en Madrid</h2>
+        <p class="section-desc">Cualquier persona sana puede donar sangre si cumple estas condiciones básicas establecidas por la normativa sanitaria.</p>
+      </div>
+
+      <div class="requirements-grid">
+        <div class="req-card">
+          <div class="req-icon">🎂</div>
+          <h3>Edad: entre 18 y 65 años</h3>
+          <p>Si tienes entre 18 y 65 años puedes donar. Si eres donante habitual con buen estado de salud, puedes continuar donando hasta los 70 años con autorización médica.</p>
+        </div>
+
+        <div class="req-card">
+          <div class="req-icon">⚖️</div>
+          <h3>Peso: más de 50 kg</h3>
+          <p>El peso mínimo obligatorio es de 50 kg para garantizar que la extracción reglamentaria (450 ml de sangre) se tolere de forma 100% segura.</p>
+        </div>
+
+        <div class="req-card">
+          <div class="req-icon">🍎</div>
+          <h3>Buena salud y no estar en ayunas</h3>
+          <p>Debes encontrarte bien y haber tomado alimentos ligeros y líquidos. Nunca acudas en ayunas a donar sangre; hidrátate bien antes y después.</p>
+        </div>
+
+        <div class="req-card">
+          <div class="req-icon">📆</div>
+          <h3>Frecuencia e intervalos</h3>
+          <p>Los hombres pueden donar hasta 4 veces al año y las mujeres hasta 3 veces al año. Siempre debe transcurrir un mínimo de 2 meses (60 días) entre extracciones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section (The App) -->
   <section id="features" class="features-section">
     <div class="section-container">
       <div class="section-header">
-        <span class="badge" style="align-self: center;">Funcionalidades</span>
-        <h2 class="section-title">Todo lo que necesitas como donante habitual</h2>
-        <p class="section-desc">Diseñado para ser simple, privado y útil. Con herramientas que te ayudan a planificar tu próxima donación.</p>
+        <span class="badge" style="align-self: center;">App Vena Altruista</span>
+        <h2 class="section-title">La herramienta ideal para los donantes de Madrid</h2>
+        <p class="section-desc">Diseñada para ser simple, privada y útil. Te ayuda a organizar y planificar tus donaciones de sangre en la Comunidad de Madrid.</p>
       </div>
       
       <div class="features-grid">
@@ -111,25 +289,25 @@
         <div class="feature-card">
           <div class="feature-icon-wrapper">📅</div>
           <h3>Registro de Historial</h3>
-          <p>Apunta la fecha de cada donación de forma sencilla y ten siempre a mano tu recorrido solidario y tu número de donante.</p>
+          <p>Apunta la fecha de cada donación de sangre de forma sencilla y ten siempre a mano tu recorrido solidario, grupo sanguíneo y número de donante.</p>
         </div>
         <!-- Feature 2 -->
         <div class="feature-card">
           <div class="feature-icon-wrapper">🔔</div>
           <h3>Recordatorios Inteligentes</h3>
-          <p>Configura recordatorios y recibe una notificación directa en tu móvil cuando se cumpla el periodo de espera recomendado para volver a donar.</p>
+          <p>Configura recordatorios y recibe una notificación directa en tu móvil cuando se cumpla el periodo legal de 2 meses para volver a donar.</p>
         </div>
         <!-- Feature 3 -->
         <div class="feature-card">
           <div class="feature-icon-wrapper">📍</div>
           <h3>Puntos de Donación Móvil</h3>
-          <p>Encuentra dónde están las unidades móviles de donación de la Comunidad de Madrid hoy mismo para planificar tu visita.</p>
+          <p>Encuentra dónde están las unidades móviles de donación de la Comunidad de Madrid hoy mismo para planificar tu próxima visita solidaria.</p>
         </div>
         <!-- Feature 4 -->
         <div class="feature-card">
           <div class="feature-icon-wrapper">☁️</div>
           <h3>Copia en Google Drive</h3>
-          <p>Mantén tus datos seguros haciendo copias de seguridad en tu cuenta personal de Google Drive. Tus datos siempre estarán bajo tu control.</p>
+          <p>Mantén tus datos seguros haciendo copias de seguridad en tu cuenta personal de Google Drive. Tus datos siempre estarán bajo tu estricto control.</p>
         </div>
       </div>
     </div>
@@ -139,13 +317,13 @@
   <section id="venito" class="venito-section">
     <div class="hero-image">
       <div class="hero-image-bg"></div>
-      <img src="venito_mockup.png" alt="Venito Chat IA Mockup" class="venito-mockup">
+      <img src="venito_mockup.png" alt="Venito Asistente IA para donantes de sangre" class="venito-mockup">
     </div>
     <div class="venito-content">
       <div class="badge">
         <span>🤖 Inteligencia Artificial Local</span>
       </div>
-      <h2 class="section-title">Pregúntale a Venito: IA Local y Privada</h2>
+      <h2 class="section-title">Pregúntale a Venito: Tu Asistente de Donación</h2>
       <p class="hero-desc">
         Vena Altruista Madrid incluye de forma totalmente integrada a <strong>Venito</strong>, un asistente de IA conversacional que se ejecuta 100% de manera local y offline en tu dispositivo.
       </p>
@@ -153,19 +331,19 @@
         <li>
           <span style="font-size: 1.5rem;">🔒</span>
           <div>
-            <strong>Privacidad Absoluta:</strong> Al ejecutarse de forma local, ninguna conversación o dato se envía a internet ni se comparte con servidores externos.
+            <strong>Privacidad Absoluta:</strong> Al ejecutarse de forma local en tu móvil, ninguna conversación o dato se envía a internet ni se comparte con servidores externos.
           </div>
         </li>
         <li>
           <span style="font-size: 1.5rem;">💡</span>
           <div>
-            <strong>Resuelve tus Dudas al Instante:</strong> Pregúntale a Venito sobre requisitos médicos para donar, tiempos de espera recomendados, qué comer antes de una extracción y más.
+            <strong>Resuelve tus Dudas al Instante:</strong> Pregúntale a Venito sobre requisitos médicos para donar sangre, tiempos de espera recomendados, medicación o qué comer antes de una extracción.
           </div>
         </li>
         <li>
           <span style="font-size: 1.5rem;">📍</span>
           <div>
-            <strong>Consulta Puntos de Donación:</strong> Pregunta directamente a Venito para informarte sobre los puntos de donación fijos o móviles en la Comunidad de Madrid.
+            <strong>Consulta Puntos de Donación en Madrid:</strong> Infórmate sobre salas de donación fijas en hospitales o unidades móviles en la Comunidad de Madrid.
           </div>
         </li>
       </ul>
@@ -175,39 +353,47 @@
   <!-- CTA Banner Section -->
   <section class="cta-banner">
     <div class="cta-content">
-      <h2>¿Listo para tu próxima donación?</h2>
-      <p>Descarga Vena Altruista Madrid de forma totalmente gratuita y comienza a organizar tu compromiso solidario.</p>
+      <h2>¿Listo para tu próxima donación de sangre?</h2>
+      <p>Descarga Vena Altruista Madrid de forma totalmente gratuita y comienza a organizar tu compromiso solidario hoy mismo.</p>
       <a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="google-play-badge" id="cta-middle-download">
         <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
       </a>
     </div>
   </section>
 
-  <!-- Info & FAQ Section (Boosts SEO with relevant keywords) -->
+  <!-- Info & FAQ Section (Boosts SEO with rich structured schema) -->
   <section id="faq" class="info-section">
     <div class="section-container">
       <div class="section-header">
         <span class="badge" style="align-self: center;">Información de Utilidad</span>
-        <h2 class="section-title">Preguntas Frecuentes sobre la Donación de Sangre</h2>
-        <p class="section-desc">Resuelve tus dudas sobre los requisitos en la Comunidad de Madrid y el uso de nuestra app.</p>
+        <h2 class="section-title">Preguntas Frecuentes sobre Donar Sangre en Madrid</h2>
+        <p class="section-desc">Resuelve tus dudas sobre los puntos de extracción, los requisitos sanitarios y cómo te ayuda nuestra app.</p>
       </div>
 
       <div class="faq-grid">
         <div class="faq-item">
-          <h3>👤 ¿Cuáles son los requisitos básicos para donar en Madrid?</h3>
-          <p>Por lo general, debes tener entre 18 y 65 años, pesar más de 50 kg, no estar en ayunas y gozar de buena salud en general. En cada punto de donación te realizarán un breve cuestionario médico confidencial.</p>
+          <h3>📍 ¿Dónde puedo donar sangre en Madrid hoy?</h3>
+          <p>Puedes acudir a más de 30 hospitales con sala de donación (como La Paz, 12 de Octubre, Gregorio Marañón o Clínico San Carlos), al Centro de Transfusión de Valdebernardo o a los autobuses y unidades móviles situados en plazas y calles de Madrid.</p>
         </div>
         <div class="faq-item">
-          <h3>⏳ ¿Cuánto tiempo hay que esperar entre donaciones?</h3>
-          <p>Los hombres pueden donar hasta 6 veces al año y las mujeres hasta 4 veces. El intervalo mínimo obligatorio entre donaciones de sangre total es de 2 meses (60 días).</p>
+          <h3>👤 ¿Cuáles son los requisitos básicos para donar en Madrid?</h3>
+          <p>Tener entre 18 y 65 años, pesar más de 50 kg, no acudir en ayunas, gozar de buena salud y llevar contigo un documento de identidad oficial (DNI, NIE o pasaporte en vigor).</p>
+        </div>
+        <div class="faq-item">
+          <h3>⏳ ¿Cuánto tiempo hay que esperar entre donaciones de sangre?</h3>
+          <p>El intervalo legal mínimo entre dos donaciones de sangre total es de 2 meses (60 días). En España, los hombres pueden donar hasta 4 veces al año y las mujeres hasta 3 veces al año.</p>
+        </div>
+        <div class="faq-item">
+          <h3>🎨 ¿Se puede donar si me he hecho un tatuaje o piercing?</h3>
+          <p>Sí, pero debes esperar 4 meses desde la fecha en la que te hiciste el tatuaje, piercing o micropigmentación antes de volver a donar sangre.</p>
+        </div>
+        <div class="faq-item">
+          <h3>📱 ¿Para qué sirve la app Vena Altruista Madrid?</h3>
+          <p>Te ayuda a llevar tu carnet y registro de extracciones al día, te avisa en cuanto cumples el periodo de espera para poder donar de nuevo y te muestra los puntos móviles activos en la Comunidad de Madrid.</p>
         </div>
         <div class="faq-item">
           <h3>🔒 ¿Mis datos están seguros en la app?</h3>
-          <p>Sí, absolutamente. La aplicación no recopila tus datos personales en ningún servidor externo. Todo se guarda localmente en tu teléfono y las copias de seguridad se almacenan en tu propio Google Drive privado.</p>
-        </div>
-        <div class="faq-item">
-          <h3>📍 ¿Cómo se actualizan los puntos móviles?</h3>
-          <p>La aplicación te permite consultar de manera sencilla los puntos móviles y fijos de donación activos en la Comunidad de Madrid, facilitando que encuentres la unidad móvil más cercana a tu casa o lugar de trabajo.</p>
+          <p>Totalmente. La app funciona en local, no envía datos personales a ningún servidor externo y las copias de seguridad se guardan de forma privada en tu propia cuenta de Google Drive.</p>
         </div>
       </div>
     </div>
@@ -222,6 +408,8 @@
           <span>Vena Altruista Madrid</span>
         </div>
         <div class="footer-links">
+          <a href="#puntos" class="footer-link">Dónde Donar</a>
+          <a href="#requisitos" class="footer-link">Requisitos</a>
           <a href="#features" class="footer-link">Características</a>
           <a href="#venito" class="footer-link">Chat Venito</a>
           <a href="#faq" class="footer-link">Preguntas Frecuentes</a>
@@ -230,7 +418,7 @@
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 Vena Altruista Madrid. Todos los derechos reservados.</p>
-        <p>Esta aplicación no está vinculada oficialmente con el Centro de Transfusión de la Comunidad de Madrid. Su propósito es servir de utilidad organizativa para los donantes.</p>
+        <p>Esta web y aplicación tienen carácter informativo y organizativo para donantes y no sustituyen a las fuentes oficiales de la red sanitaria de la Comunidad de Madrid ni del Centro de Transfusión.</p>
       </div>
     </div>
   </footer>

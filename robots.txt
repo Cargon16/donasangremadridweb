@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carlisoft.github.io/Web-DonaSangreMadrid/sitemap.xml
