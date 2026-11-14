@@ -967,3 +967,577 @@ footer {
     animation: none;
   }
 }
+
+
+/* =========================================================
+   Subpages: Reservas Hoy, Calculadora & Herramientas
+   ========================================================= */
+.page-hero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 132px 24px 48px;
+  text-align: center;
+}
+
+.page-hero .badge {
+  display: inline-flex;
+  margin-bottom: 16px;
+}
+
+.page-hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 16px;
+}
+
+.page-hero p {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  color: var(--text-secondary);
+  font-size: 1.08rem;
+}
+
+.tools-strip {
+  max-width: var(--max-width);
+  margin: 0 auto 32px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.tool-promo-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: var(--transition);
+}
+
+.tool-promo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: rgba(211, 24, 53, 0.25);
+}
+
+.tool-promo-card h3 {
+  font-size: 1.2rem;
+}
+
+.tool-promo-card p {
+  font-size: 0.94rem;
+  color: var(--text-secondary);
+}
+
+.tool-promo-link {
+  margin-top: auto;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+/* Blood Reserves Traffic Light */
+.reserves-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.reserves-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.reserve-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-md);
+  padding: 20px 14px;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  border: 2px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.reserve-card.status-danger {
+  border-color: #e53e3e;
+  background: #fff5f5;
+}
+
+.reserve-card.status-warning {
+  border-color: #dd6b20;
+  background: #fffaf0;
+}
+
+.reserve-card.status-success {
+  border-color: #38a169;
+  background: #f0fff4;
+}
+
+.reserve-group {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.status-danger .reserve-group { color: #c53030; }
+.status-warning .reserve-group { color: #c05621; }
+.status-success .reserve-group { color: #2f855a; }
+
+.reserve-pill {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.status-danger .reserve-pill { background: #fed7d7; color: #9b2c2c; }
+.status-warning .reserve-pill { background: #feebc8; color: #9c4221; }
+.status-success .reserve-pill { background: #c6f6d5; color: #22543d; }
+
+.reserve-msg {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* Mobile Points Filter & Cards */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.filter-input {
+  flex: 1 1 260px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #cbd5e0;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+
+.date-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.date-tab {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: #fff;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.date-tab.active,
+.date-tab:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.mobile-points-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.mobile-point-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mobile-point-city {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.mobile-point-address {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 1.02rem;
+}
+
+.mobile-point-times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.time-chip {
+  background: var(--primary-light);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+/* Interactive Calculator */
+.calc-wrapper {
+  max-width: 880px;
+  margin: 0 auto 64px;
+  padding: 0 24px;
+}
+
+.calc-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border-color);
+}
+
+.calc-step-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.calc-step-num {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--primary-light);
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.calc-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid #cbd5e0;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+  transition: var(--transition);
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px var(--primary-glow);
+}
+
+.quick-dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.quick-date-btn {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: #f8fafc;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.quick-date-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-light);
+}
+
+/* Segmented Sex Selector */
+.segmented-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.segmented-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--border-color);
+  background: #f8fafc;
+  cursor: pointer;
+  text-align: left;
+  transition: var(--transition);
+  font-family: inherit;
+}
+
+.segmented-btn strong {
+  font-size: 0.96rem;
+  color: var(--text-primary);
+}
+
+.segmented-btn span {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.segmented-btn.active {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  box-shadow: 0 4px 14px var(--primary-glow);
+}
+
+.segmented-btn.active strong {
+  color: var(--primary);
+}
+
+/* Condition Tiles */
+.checks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.check-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: #f8fafc;
+  cursor: pointer;
+  font-size: 0.92rem;
+  transition: var(--transition);
+}
+
+.check-option:hover {
+  border-color: rgba(211, 24, 53, 0.35);
+  background: #fff;
+}
+
+.check-option.selected {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+.check-option input {
+  margin-top: 3px;
+  width: 17px;
+  height: 17px;
+  accent-color: var(--primary);
+  flex-shrink: 0;
+}
+
+.check-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.check-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #edf2f7;
+  color: var(--text-secondary);
+}
+
+.check-option.selected .check-badge {
+  background: rgba(211, 24, 53, 0.14);
+  color: var(--primary);
+}
+
+.calc-submit {
+  width: 100%;
+  padding: 15px 24px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--primary) 0%, #b00f27 100%);
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px var(--primary-glow);
+  transition: var(--transition);
+}
+
+.calc-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(211, 24, 53, 0.25);
+}
+
+/* Result Card + Recovery Bar */
+.calc-result {
+  margin-top: 28px;
+  padding: 28px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, #fff5f6 0%, #ffffff 100%);
+  border: 1.5px solid rgba(211, 24, 53, 0.25);
+  display: none;
+}
+
+.calc-result.visible {
+  display: block;
+}
+
+.calc-result.ready {
+  background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
+  border-color: rgba(56, 161, 105, 0.4);
+}
+
+.result-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.result-countdown {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.calc-result.ready .result-countdown {
+  color: #2f855a;
+}
+
+.result-percent {
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.calc-result.ready .result-percent {
+  background: #c6f6d5;
+  color: #22543d;
+}
+
+.recovery-track {
+  width: 100%;
+  height: 12px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.recovery-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #f56565 0%, var(--primary) 100%);
+  transition: width 0.5s ease;
+}
+
+.calc-result.ready .recovery-fill {
+  background: linear-gradient(90deg, #48bb78 0%, #2f855a 100%);
+}
+
+.calc-result p {
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-calendar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--primary);
+  background: #fff;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: var(--transition);
+}
+
+.btn-calendar:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .calc-card {
+    padding: 22px 18px;
+  }
+  .segmented-group {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Reservas de Sangre y Unidades Móviles Hoy en Madrid | Vena Altruista</title>
+  <meta name="description" content="Consulta el semáforo de reservas de sangre hoy en la Comunidad de Madrid y los horarios de autobuses y unidades móviles por municipio. Descarga Vena Altruista Madrid.">
+  <meta name="keywords" content="reservas de sangre madrid hoy, autobus donar sangre madrid hoy, unidades moviles donacion sangre madrid, estado reservas sangre madrid, donde donar sangre hoy madrid">
+  <meta name="author" content="Carlisoft">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://cargon16.github.io/donasangremadridweb/reservas-hoy.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cargon16.github.io/donasangremadridweb/reservas-hoy.html">
+  <meta property="og:title" content="Reservas de Sangre y Unidades Móviles Hoy en Madrid">
+  <meta property="og:description" content="Semáforo diario de reservas de sangre y próximas unidades móviles en la Comunidad de Madrid.">
+  <meta property="og:image" content="https://cargon16.github.io/donasangremadridweb/app_mockup.png">
+
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://cargon16.github.io/donasangremadridweb/reservas-hoy.html",
+    "name": "Reservas de Sangre y Unidades Móviles Hoy en Madrid",
+    "description": "Estado diario de las reservas de sangre por grupo sanguíneo y ubicaciones de autobuses de donación en la Comunidad de Madrid.",
+    "inLanguage": "es"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="./index.html" class="logo">
+        <img src="logo.jpg" alt="Vena Altruista Madrid Logo" style="width: 36px; height: 36px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(211, 24, 53, 0.25);">
+        <span>Vena Altruista Madrid</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-menu">
+        <li><a href="./index.html" class="nav-link">Inicio</a></li>
+        <li><a href="./reservas-hoy.html" class="nav-link">Reservas Hoy</a></li>
+        <li><a href="./calculadora.html" class="nav-link">Calculadora</a></li>
+        <li><a href="./index.html#puntos" class="nav-link">Hospitales</a></li>
+        <li><a href="./index.html#faq" class="nav-link">Preguntas</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="nav-btn">Descargar App</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="badge">
+      <span>🩸 Actualizado diariamente en la Comunidad de Madrid</span>
+    </div>
+    <h1>Reservas de Sangre y Autobuses Hoy en Madrid</h1>
+    <p>
+      Consulta el estado de cada grupo sanguíneo y busca en qué calle o municipio de Madrid se encuentran hoy y los próximos días las unidades móviles de donación.
+    </p>
+    <div class="hero-ctas" style="justify-content: center;">
+      <a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="google-play-badge">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
+      </a>
+      <a href="./calculadora.html" class="btn-secondary">¿Cuándo puedo donar?</a>
+    </div>
+  </section>
+
+  <main class="section-container" style="padding-top: 0;">
+    <div class="reserves-meta">
+      <h2 style="font-size: 1.5rem;">Semáforo de Reservas por Grupo</h2>
+      <span id="last-updated">Cargando última actualización...</span>
+    </div>
+
+    <div id="reserves-grid" class="reserves-grid" aria-live="polite">
+      <p>Cargando reservas de sangre...</p>
+    </div>
+
+    <div class="reserves-meta" style="margin-top: 16px;">
+      <h2 style="font-size: 1.5rem;">Unidades Móviles y Autobuses en Madrid</h2>
+      <span id="points-count"></span>
+    </div>
+
+    <div class="filter-bar">
+      <input
+        type="search"
+        id="point-search"
+        class="filter-input"
+        placeholder="Filtrar por municipio o calle (ej: Madrid, Getafe, Alcalá, Gran Vía)..."
+        aria-label="Filtrar unidades móviles por municipio o dirección"
+      >
+    </div>
+
+    <div id="date-tabs" class="date-tabs" role="tablist" aria-label="Fechas disponibles"></div>
+    <div id="mobile-points-grid" class="mobile-points-grid">
+      <p>Cargando puntos móviles...</p>
+    </div>
+  </main>
+
+  <section class="cta-banner" style="margin-top: 64px;">
+    <div class="cta-content">
+      <h2>Lleva los puntos móviles y alertas en tu bolsillo (y en tu reloj Wear OS)</h2>
+      <p>Con <strong>Vena Altruista Madrid</strong> ves los puntos en un mapa interactivo, abres ruta GPS con un toque, calculas tu recuperación y consultas tus dudas a Venito.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="google-play-badge">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Vena Altruista Madrid Logo" style="width: 32px; height: 32px; border-radius: 8px; object-fit: cover;">
+          <span>Vena Altruista Madrid</span>
+        </div>
+        <div class="footer-links">
+          <a href="./index.html" class="footer-link">Inicio</a>
+          <a href="./reservas-hoy.html" class="footer-link">Reservas Hoy</a>
+          <a href="./calculadora.html" class="footer-link">Calculadora</a>
+          <a href="./privacy.html" class="footer-link">Política de Privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Vena Altruista Madrid. Todos los derechos reservados.</p>
+        <p>Datos obtenidos de fuentes públicas informativas (donarsangre.org) con fines orientativos. Verifica siempre los horarios oficiales en caso de duda.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-toggle').checked = false;
+      });
+    });
+
+    const STATUS_LABELS = {
+      danger: 'Urgente',
+      warning: 'Atención',
+      success: 'Óptimo'
+    };
+
+    let allDateGroups = [];
+    let selectedDateIdx = 0;
+
+    function formatDateTime(iso) {
+      if (!iso) return 'Actualizado hoy';
+      const d = new Date(iso);
+      if (isNaN(d.getTime())) return 'Actualizado hoy';
+      return 'Actualizado: ' + d.toLocaleString('es-ES', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text || '';
+      return div.innerHTML;
+    }
+
+    function renderLevels(levels) {
+      const grid = document.getElementById('reserves-grid');
+      if (!levels || !levels.length) {
+        grid.innerHTML = '<p>No se pudieron cargar los niveles en este momento. Consulta directamente en la app.</p>';
+        return;
+      }
+      grid.innerHTML = levels.map(item => {
+        const status = STATUS_LABELS[item.status] ? item.status : 'success';
+        return `
+          <article class="reserve-card status-${status}">
+            <span class="reserve-group">${escapeHtml(item.group)}</span>
+            <span class="reserve-pill">${STATUS_LABELS[status]}</span>
+            <p class="reserve-msg">${escapeHtml(item.message)}</p>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function renderDateTabs() {
+      const tabsEl = document.getElementById('date-tabs');
+      if (!allDateGroups.length) {
+        tabsEl.innerHTML = '';
+        return;
+      }
+      tabsEl.innerHTML = allDateGroups.map((group, idx) => `
+        <button
+          type="button"
+          class="date-tab ${idx === selectedDateIdx ? 'active' : ''}"
+          data-idx="${idx}"
+        >${escapeHtml(group.date)}</button>
+      `).join('');
+
+      tabsEl.querySelectorAll('.date-tab').forEach(btn => {
+        btn.addEventListener('click', () => {
+          selectedDateIdx = Number(btn.dataset.idx);
+          renderDateTabs();
+          renderPoints();
+        });
+      });
+    }
+
+    function renderPoints() {
+      const container = document.getElementById('mobile-points-grid');
+      const countEl = document.getElementById('points-count');
+      const query = document.getElementById('point-search').value.trim().toLowerCase();
+
+      let items = [];
+      if (query) {
+        allDateGroups.forEach(group => {
+          (group.items || []).forEach(item => {
+            const haystack = `${item.city} ${item.address}`.toLowerCase();
+            if (haystack.includes(query)) {
+              items.push({ ...item, dateLabel: group.date });
+            }
+          });
+        });
+      } else if (allDateGroups[selectedDateIdx]) {
+        items = (allDateGroups[selectedDateIdx].items || []).map(item => ({
+          ...item,
+          dateLabel: allDateGroups[selectedDateIdx].date
+        }));
+      }
+
+      countEl.textContent = `${items.length} ubicacion${items.length === 1 ? '' : 'es'} encontrada${items.length === 1 ? '' : 's'}`;
+
+      if (!items.length) {
+        container.innerHTML = '<p>No hay unidades móviles que coincidan con tu búsqueda. Prueba con otro municipio o consulta los hospitales fijos.</p>';
+        return;
+      }
+
+      container.innerHTML = items.map(item => `
+        <article class="mobile-point-card">
+          <div class="mobile-point-city">${escapeHtml(item.city)}${query ? ' · ' + escapeHtml(item.dateLabel) : ''}</div>
+          <div class="mobile-point-address">${escapeHtml(item.address)}</div>
+          <div class="mobile-point-times">
+            ${(item.times || []).map(t => `<span class="time-chip">🕒 ${escapeHtml(t)}</span>`).join('')}
+          </div>
+        </article>
+      `).join('');
+    }
+
+    document.getElementById('point-search').addEventListener('input', renderPoints);
+
+    fetch('./data/madrid-status.json?t=' + Date.now())
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('last-updated').textContent = formatDateTime(data.updated_at);
+        renderLevels(data.levels);
+        allDateGroups = data.mobile_points || [];
+        renderDateTabs();
+        renderPoints();
+      })
+      .catch(() => {
+        document.getElementById('last-updated').textContent = 'No disponible';
+        document.getElementById('reserves-grid').innerHTML = '<p>Error al cargar los datos. Descarga la app para consultarlos en tiempo real.</p>';
+      });
+  </script>
+</body>
+</html>

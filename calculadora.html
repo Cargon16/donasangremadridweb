@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Calculadora: ¿Cuándo Puedo Volver a Donar Sangre? | Madrid</title>
+  <meta name="description" content="Calcula al instante la fecha exacta en la que puedes volver a donar sangre en España y Madrid. Incluye intervalos tras tatuajes, piercings, antibióticos o cirugía.">
+  <meta name="keywords" content="cuando puedo volver a donar sangre, calculadora donacion sangre, cuanto esperar para donar sangre tatuaje, donar sangre despues de antibioticos, intervalo entre donaciones de sangre">
+  <meta name="author" content="Carlisoft">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://cargon16.github.io/donasangremadridweb/calculadora.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cargon16.github.io/donasangremadridweb/calculadora.html">
+  <meta property="og:title" content="Calculadora: ¿Cuándo Puedo Volver a Donar Sangre?">
+  <meta property="og:description" content="Descubre la fecha exacta para tu próxima donación de sangre teniendo en cuenta plazos mínimos, tatuajes o medicación.">
+  <meta property="og:image" content="https://cargon16.github.io/donasangremadridweb/app_mockup.png">
+
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuántos días hay que esperar entre dos donaciones de sangre?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El intervalo mínimo obligatorio entre dos donaciones de sangre total en España es de 2 meses (60 días). Los hombres pueden donar hasta 6 veces al año y las mujeres hasta 4 veces al año."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tiempo hay que esperar para donar sangre después de un tatuaje o piercing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Debes esperar 4 meses desde que te realizaste el tatuaje, piercing o micropigmentación antes de volver a donar sangre."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Se puede donar sangre tomando antibióticos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No mientras estés tomando antibióticos. Una vez finalizado el tratamiento y recuperado por completo de la infección, suele ser necesario esperar al menos 14 días según valoración médica."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="./index.html" class="logo">
+        <img src="logo.jpg" alt="Vena Altruista Madrid Logo" style="width: 36px; height: 36px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(211, 24, 53, 0.25);">
+        <span>Vena Altruista Madrid</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-menu">
+        <li><a href="./index.html" class="nav-link">Inicio</a></li>
+        <li><a href="./reservas-hoy.html" class="nav-link">Reservas Hoy</a></li>
+        <li><a href="./calculadora.html" class="nav-link">Calculadora</a></li>
+        <li><a href="./index.html#puntos" class="nav-link">Hospitales</a></li>
+        <li><a href="./index.html#faq" class="nav-link">Preguntas</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="nav-btn">Descargar App</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="badge">
+      <span>📅 Herramienta Gratuita para Donantes</span>
+    </div>
+    <h1>¿Cuándo Puedo Volver a Donar Sangre?</h1>
+    <p>
+      Introduce la fecha de tu última donación y marca si has pasado por alguna situación reciente (tatuaje, antibióticos, cirugía) para calcular tu fecha orientativa.
+    </p>
+  </section>
+
+  <section class="calc-wrapper">
+    <div class="calc-card">
+      <form id="donation-calc-form">
+        <div class="calc-form-grid">
+          <div class="form-group">
+            <div class="calc-step-title">
+              <span class="calc-step-num">1</span>
+              <label for="last-date" style="margin: 0;">Fecha de tu última donación</label>
+            </div>
+            <input type="date" id="last-date" class="form-control" required>
+            <div class="quick-dates" aria-label="Atajos de fecha">
+              <button type="button" class="quick-date-btn" data-days="0">Hoy</button>
+              <button type="button" class="quick-date-btn" data-days="30">Hace 1 mes</button>
+              <button type="button" class="quick-date-btn" data-days="45">Hace 45 días</button>
+              <button type="button" class="quick-date-btn" data-days="65">Hace +2 meses</button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="calc-step-title">
+              <span class="calc-step-num">2</span>
+              <span>Perfil de donante</span>
+            </div>
+            <div class="segmented-group" role="radiogroup" aria-label="Perfil de donante">
+              <button type="button" class="segmented-btn active" data-sex="hombre" aria-pressed="true">
+                <strong>👨 Hombre</strong>
+                <span>Mín. 60 días · máx. 6/año</span>
+              </button>
+              <button type="button" class="segmented-btn" data-sex="mujer" aria-pressed="false">
+                <strong>👩 Mujer</strong>
+                <span>Mín. 60 días · máx. 4/año</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="calc-step-title">
+          <span class="calc-step-num">3</span>
+          <span>¿Has pasado por alguna de estas situaciones? (Opcional)</span>
+        </div>
+        <div class="checks-grid">
+          <label class="check-option">
+            <input type="checkbox" id="chk-tattoo">
+            <span class="check-body">
+              <span class="check-badge">Espera: 4 meses</span>
+              <span>Tatuaje, piercing o micropigmentación reciente</span>
+            </span>
+          </label>
+          <label class="check-option">
+            <input type="checkbox" id="chk-antibiotics">
+            <span class="check-body">
+              <span class="check-badge">Espera: 14 días</span>
+              <span>Finalicé antibióticos hace menos de 14 días</span>
+            </span>
+          </label>
+          <label class="check-option">
+            <input type="checkbox" id="chk-surgery">
+            <span class="check-body">
+              <span class="check-badge">Espera: 4 meses</span>
+              <span>Cirugía o endoscopia en los últimos 4 meses</span>
+            </span>
+          </label>
+          <label class="check-option">
+            <input type="checkbox" id="chk-travel">
+            <span class="check-body">
+              <span class="check-badge">Consultar plazo</span>
+              <span>Viaje reciente fuera de Europa</span>
+            </span>
+          </label>
+        </div>
+
+        <button type="submit" class="calc-submit">Calcular mi próxima fecha</button>
+      </form>
+
+      <div id="calc-result" class="calc-result" aria-live="polite">
+        <div class="result-header">
+          <h3 id="result-title" class="result-countdown"></h3>
+          <span id="result-percent" class="result-percent"></span>
+        </div>
+        <div class="recovery-track" aria-hidden="true">
+          <div id="recovery-fill" class="recovery-fill"></div>
+        </div>
+        <p id="result-text"></p>
+        <div class="result-actions">
+          <a id="btn-ics" href="#" download="proxima-donacion-madrid.ics" class="btn-calendar" style="display: none;">
+            📅 Añadir a mi calendario
+          </a>
+          <a href="./reservas-hoy.html" class="btn-secondary">Ver autobuses hoy en Madrid</a>
+        </div>
+        <div style="margin-top: 18px; padding-top: 16px; border-top: 1px solid rgba(0,0,0,0.08); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;">
+          <span style="font-size: 0.9rem; color: var(--text-secondary);">¿Prefieres que la app te avise automáticamente?</span>
+          <a href="https://play.google.com/store/apps/details?id=com.carlisoft.donasangremadrid" target="_blank" rel="noopener" class="google-play-badge">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section" style="padding-top: 0;">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge" style="align-self: center;">Dudas Frecuentes</span>
+        <h2 class="section-title">Plazos habituales antes de donar</h2>
+        <p class="section-desc">Resumen orientativo según los criterios generales en España. El equipo sanitario del punto de extracción siempre tiene la última palabra.</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>🎨 Tatuajes, piercings y acupuntura</h3>
+          <p>Es necesario esperar <strong>4 meses</strong> desde la fecha de realización antes de poder volver a donar sangre.</p>
+        </div>
+        <div class="faq-item">
+          <h3>💊 Ibuprofeno, paracetamol o antibióticos</h3>
+          <p>Con analgésicos suaves como paracetamol o ibuprofeno suele poderse donar si te encuentras bien; con <strong>antibióticos</strong> hay que esperar al menos 14 días tras acabar el tratamiento.</p>
+        </div>
+        <div class="faq-item">
+          <h3>🦷 Dentista o limpieza bucal</h3>
+          <p>Tras una limpieza bucal o empaste simple suele esperarse 24–72 horas; tras una extracción dental, unos 7 días sin complicaciones.</p>
+        </div>
+        <div class="faq-item">
+          <h3>📱 ¿Quieres recordatorios automáticos?</h3>
+          <p>En la app <strong>Vena Altruista Madrid</strong> guardas tu historial en local, ves tu recuperación animada y puedes preguntar cualquier duda a <strong>Venito</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Vena Altruista Madrid Logo" style="width: 32px; height: 32px; border-radius: 8px; object-fit: cover;">
+          <span>Vena Altruista Madrid</span>
+        </div>
+        <div class="footer-links">
+          <a href="./index.html" class="footer-link">Inicio</a>
+          <a href="./reservas-hoy.html" class="footer-link">Reservas Hoy</a>
+          <a href="./calculadora.html" class="footer-link">Calculadora</a>
+          <a href="./privacy.html" class="footer-link">Política de Privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Vena Altruista Madrid. Todos los derechos reservados.</p>
+        <p>Cálculo meramente orientativo. La aptitud final se confirma siempre mediante entrevista médica en el centro o unidad móvil.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-toggle').checked = false;
+      });
+    });
+
+    const lastDateInput = document.getElementById('last-date');
+    const today = new Date();
+    lastDateInput.max = today.toISOString().split('T')[0];
+
+    let selectedSex = 'hombre';
+
+    document.querySelectorAll('.segmented-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        selectedSex = btn.dataset.sex;
+        document.querySelectorAll('.segmented-btn').forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+        if (lastDateInput.value) calculateDonation();
+      });
+    });
+
+    document.querySelectorAll('.quick-date-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const d = new Date();
+        d.setDate(d.getDate() - Number(btn.dataset.days));
+        lastDateInput.value = d.toISOString().split('T')[0];
+        calculateDonation();
+      });
+    });
+
+    document.querySelectorAll('.check-option input').forEach(chk => {
+      chk.addEventListener('change', () => {
+        chk.closest('.check-option').classList.toggle('selected', chk.checked);
+        if (lastDateInput.value) calculateDonation();
+      });
+    });
+
+    lastDateInput.addEventListener('change', () => {
+      if (lastDateInput.value) calculateDonation();
+    });
+
+    function toIcsDate(date) {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, '0');
+      const d = String(date.getDate()).padStart(2, '0');
+      return `${y}${m}${d}`;
+    }
+
+    function buildIcsDataUrl(startDate, endDate) {
+      const stamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+      const uid = `vena-altruista-${toIcsDate(startDate)}@cargon16.github.io`;
+      const icsLines = [
+        'BEGIN:VCALENDAR',
+        'VERSION:2.0',
+        'PRODID:-//Vena Altruista Madrid//Calculadora//ES',
+        'CALSCALE:GREGORIAN',
+        'METHOD:PUBLISH',
+        'BEGIN:VEVENT',
+        `UID:${uid}`,
+        `DTSTAMP:${stamp}`,
+        `DTSTART;VALUE=DATE:${toIcsDate(startDate)}`,
+        `DTEND;VALUE=DATE:${toIcsDate(endDate)}`,
+        'SUMMARY:Ya puedo volver a donar sangre en Madrid',
+        'DESCRIPTION:Recordatorio generado en Vena Altruista Madrid. Consulta puntos móviles hoy en: https://cargon16.github.io/donasangremadridweb/reservas-hoy.html',
+        'URL:https://cargon16.github.io/donasangremadridweb/reservas-hoy.html',
+        'BEGIN:VALARM',
+        'TRIGGER:PT9H',
+        'ACTION:DISPLAY',
+        'DESCRIPTION:Hoy ya puedes volver a donar sangre en Madrid',
+        'END:VALARM',
+        'END:VEVENT',
+        'END:VCALENDAR'
+      ].join('\r\n');
+      return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(icsLines);
+    }
+
+    function calculateDonation() {
+      if (!lastDateInput.value) return;
+
+      const lastDate = new Date(lastDateInput.value + 'T12:00:00');
+      const nextByInterval = new Date(lastDate);
+      nextByInterval.setDate(nextByInterval.getDate() + 60);
+
+      const now = new Date();
+      now.setHours(12, 0, 0, 0);
+
+      const daysPassed = Math.max(0, Math.floor((now - lastDate) / (1000 * 60 * 60 * 24)));
+      const progressPct = Math.min(100, Math.round((daysPassed / 60) * 100));
+
+      let notes = [];
+      if (document.getElementById('chk-tattoo').checked) {
+        notes.push('Recuerda respetar los <strong>4 meses</strong> desde el tatuaje o piercing.');
+      }
+      if (document.getElementById('chk-surgery').checked) {
+        notes.push('Tras cirugía o endoscopia se requieren <strong>4 meses</strong> de espera.');
+      }
+      if (document.getElementById('chk-antibiotics').checked) {
+        notes.push('Tras finalizar antibióticos debes esperar al menos <strong>14 días</strong> y estar recuperado.');
+      }
+      if (document.getElementById('chk-travel').checked) {
+        notes.push('Por el viaje fuera de Europa, consulta en el punto de donación o con Venito en la app según el país visitado.');
+      }
+
+      const resultBox = document.getElementById('calc-result');
+      const titleEl = document.getElementById('result-title');
+      const percentEl = document.getElementById('result-percent');
+      const fillEl = document.getElementById('recovery-fill');
+      const textEl = document.getElementById('result-text');
+      const icsBtn = document.getElementById('btn-ics');
+
+      const annualLimit = selectedSex === 'hombre' ? '6 donaciones al año' : '4 donaciones al año';
+      const formattedDate = nextByInterval.toLocaleDateString('es-ES', {
+        weekday: 'long',
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      });
+
+      fillEl.style.width = progressPct + '%';
+      percentEl.textContent = `${progressPct}% recuperado (${Math.min(daysPassed, 60)}/60 días)`;
+
+      if (nextByInterval <= now && notes.length === 0) {
+        resultBox.classList.add('ready');
+        titleEl.textContent = '✅ ¡Ya puedes volver a donar!';
+        textEl.innerHTML = `Has superado los 60 días desde tu última donación (apto desde el <strong>${formattedDate}</strong>). Recuerda el límite orientativo de <strong>${annualLimit}</strong>.`;
+        icsBtn.style.display = 'none';
+      } else if (nextByInterval <= now) {
+        resultBox.classList.remove('ready');
+        titleEl.textContent = '⏳ 60 días cumplidos, revisa estos plazos';
+        textEl.innerHTML = `Por fecha ya superaste los 60 días, aunque marcaste condiciones adicionales:<br><br>• ${notes.join('<br>• ')}`;
+        icsBtn.style.display = 'none';
+      } else {
+        resultBox.classList.remove('ready');
+        const diffDays = Math.ceil((nextByInterval - now) / (1000 * 60 * 60 * 24));
+        titleEl.textContent = `📅 Te faltan ${diffDays} día${diffDays === 1 ? '' : 's'}`;
+        textEl.innerHTML = `Podrás volver a donar a partir del <strong>${formattedDate}</strong> (límite orientativo: ${annualLimit}).${notes.length ? '<br><br>• ' + notes.join('<br>• ') : ''}`;
+
+        const nextDay = new Date(nextByInterval);
+        nextDay.setDate(nextDay.getDate() + 1);
+        icsBtn.href = buildIcsDataUrl(nextByInterval, nextDay);
+        icsBtn.style.display = 'inline-flex';
+      }
+
+      resultBox.classList.add('visible');
+    }
+
+    document.getElementById('donation-calc-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      calculateDonation();
+    });
+  </script>
+</body>
+</html>
