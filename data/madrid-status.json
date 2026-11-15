@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T17:42:48Z",
+  "updated_at": "2026-11-15T14:52:59Z",
   "source": "https://www.donarsangre.org/",
   "levels": [
     {
@@ -45,54 +45,6 @@
   ],
   "mobile_points": [
     {
-      "date": "Sábado,14 de noviembre",
-      "items": [
-        {
-          "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Fuencarral,121",
-          "times": [
-            "16:45 - 21:15"
-          ]
-        },
-        {
-          "city": "San Agustín del Guadalix",
-          "address": "Av. De Madrid",
-          "times": [
-            "10:00 - 13:45",
-            "17:00 - 20:45"
-          ]
-        },
-        {
-          "city": "San Lorenzo de El Escorial",
-          "address": "C. Montes Del Fraile Esq. C.Pozas",
-          "times": [
-            "10:15 - 13:30"
-          ]
-        },
-        {
-          "city": "San Martín de la Vega",
-          "address": "Av. Del Doctor Manuel Jarabo",
-          "times": [
-            "10:15 - 13:30"
-          ]
-        },
-        {
-          "city": "Villanueva de la Cañada",
-          "address": "C. Cristo 27",
-          "times": [
-            "10:15 - 13:45"
-          ]
-        }
-      ]
-    },
-    {
       "date": "Domingo,15 de noviembre",
       "items": [
         {
@@ -104,13 +56,6 @@
         },
         {
           "city": "Madrid",
-          "address": "Pº.Sta. Maria Cabeza, 12",
-          "times": [
-            "10:15 - 19:15"
-          ]
-        },
-        {
-          "city": "Madrid",
           "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
             "11:00 - 20:45"
@@ -121,6 +66,13 @@
           "address": "C. Fuencarral,121",
           "times": [
             "16:45 - 21:15"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Pº.Sta. Maria Cabeza, 12",
+          "times": [
+            "10:15 - 19:15"
           ]
         },
         {
@@ -144,9 +96,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "address": "C. Orense 16",
           "times": [
-            "11:00 - 20:45"
+            "9:30 - 14:15"
           ]
         },
         {
@@ -165,9 +117,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Orense 16",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
-            "9:30 - 14:15"
+            "11:00 - 20:45"
           ]
         },
         {
@@ -219,13 +171,6 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Jose Gutierrez Abascal Frente Nº2",
-          "times": [
-            "10:30 - 20:00"
-          ]
-        },
-        {
-          "city": "Madrid",
           "address": "Av. Del Cam. De Santiago 40",
           "times": [
             "10:00 - 14:00"
@@ -233,9 +178,9 @@
         },
         {
           "city": "Madrid",
-          "address": "Av. Complutense",
+          "address": "C. Juan Montalvo 3",
           "times": [
-            "10:30 - 20:30"
+            "9:00 - 20:30"
           ]
         },
         {
@@ -247,9 +192,16 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
+          "address": "Av. Complutense",
           "times": [
-            "9:00 - 20:30"
+            "10:30 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Jose Gutierrez Abascal Frente Nº2",
+          "times": [
+            "10:30 - 20:00"
           ]
         },
         {
@@ -267,9 +219,44 @@
       "items": [
         {
           "city": "Madrid",
+          "address": "Av. Del Cam. De Santiago 40",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Vara del Rey 1",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Av. Complutense",
+          "times": [
+            "10:30 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
           "address": "C. Juan Montalvo 3",
           "times": [
             "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Erasmo de Rotterdam,7",
+          "times": [
+            "17:00 - 21:00"
           ]
         },
         {
@@ -284,41 +271,6 @@
           "address": "C. Embajadores 161",
           "times": [
             "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C.Erasmo de Rotterdam,7",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "Av. Complutense",
-          "times": [
-            "10:30 - 20:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Vara del Rey 1",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "Av. Del Cam. De Santiago 40",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
           ]
         }
       ]
@@ -356,9 +308,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Ciudad Universitaria S/N",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
-            "10:00 - 14:00"
+            "11:00 - 20:45"
           ]
         },
         {
@@ -370,9 +322,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "address": "C. Ciudad Universitaria S/N",
           "times": [
-            "11:00 - 20:45"
+            "10:00 - 14:00"
           ]
         },
         {
@@ -417,6 +369,27 @@
         },
         {
           "city": "Madrid",
+          "address": "P.º Extremadura,150",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Av. De Burgos Nº12",
+          "times": [
+            "16:45 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Clara del Rey 55",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
           "address": "C. Juan Montalvo 3",
           "times": [
             "9:00 - 20:30"
@@ -434,27 +407,6 @@
           "address": "C. Cam. De La Zarzuela, 3",
           "times": [
             "10:00 - 13:45"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Clara del Rey 55",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "P.º Extremadura,150",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "Av. De Burgos Nº12",
-          "times": [
-            "16:45 - 21:00"
           ]
         },
         {
@@ -485,16 +437,16 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Fuencarral,121",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
-            "16:45 - 21:15"
+            "11:00 - 20:45"
           ]
         },
         {
           "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "address": "C. Fuencarral,121",
           "times": [
-            "11:00 - 20:45"
+            "16:45 - 21:15"
           ]
         },
         {
