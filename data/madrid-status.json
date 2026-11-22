@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T15:28:39Z",
+  "updated_at": "2026-11-22T15:29:17Z",
   "source": "https://www.donarsangre.org/",
   "levels": [
     {
@@ -44,47 +44,6 @@
     }
   ],
   "mobile_points": [
-    {
-      "date": "Sábado,21 de noviembre",
-      "items": [
-        {
-          "city": "",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 15:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C/Bravo Murillo, 376.",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Fuencarral,121",
-          "times": [
-            "16:45 - 21:15"
-          ]
-        },
-        {
-          "city": "Majadahonda",
-          "address": "C. Los Quimicos,2",
-          "times": [
-            "10:00 - 14:00",
-            "16:00 - 20:00"
-          ]
-        },
-        {
-          "city": "Torrejón de Ardoz",
-          "address": "C. Primavera 15",
-          "times": [
-            "10:00 - 13:45"
-          ]
-        }
-      ]
-    },
     {
       "date": "Domingo,22 de noviembre",
       "items": [
@@ -302,9 +261,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "address": "C. Juan Montalvo 3",
           "times": [
-            "11:00 - 20:45"
+            "9:00 - 20:30"
           ]
         },
         {
@@ -337,9 +296,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
-            "9:00 - 20:30"
+            "11:00 - 20:45"
           ]
         }
       ]
