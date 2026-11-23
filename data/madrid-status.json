@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T15:29:17Z",
+  "updated_at": "2026-11-23T19:23:22Z",
   "source": "https://www.donarsangre.org/",
   "levels": [
     {
@@ -45,54 +45,6 @@
   ],
   "mobile_points": [
     {
-      "date": "Domingo,22 de noviembre",
-      "items": [
-        {
-          "city": "Madrid",
-          "address": "C. Cidro 14.",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. San Germán 15",
-          "times": [
-            "10:30 - 14:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Fuencarral,121",
-          "times": [
-            "16:45 - 21:15"
-          ]
-        },
-        {
-          "city": "Majadahonda",
-          "address": "C. Los Quimicos,2",
-          "times": [
-            "10:00 - 14:00",
-            "16:00 - 20:00"
-          ]
-        },
-        {
-          "city": "Tres Cantos",
-          "address": "Av. Colmenar Viejo Esq. C.Maliciosa",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        }
-      ]
-    },
-    {
       "date": "Lunes,23 de noviembre",
       "items": [
         {
@@ -118,9 +70,23 @@
         },
         {
           "city": "Madrid",
+          "address": "C. Blas Cabrera, 50",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
           "address": "C. Embajadores, 88-90",
           "times": [
             "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
           ]
         },
         {
@@ -135,20 +101,6 @@
           "address": "C. Memorial 11 Marzo 2004 Esquina C. Pio Xii, 44",
           "times": [
             "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Blas Cabrera, 50",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
-          "times": [
-            "9:00 - 20:30"
           ]
         },
         {
@@ -172,30 +124,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
+          "address": "C. Julian Camarillo 6B",
           "times": [
-            "9:00 - 20:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "Pl. Republica Dominicana 2",
-          "times": [
-            "16:45 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Embajadores, 88-90",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
+            "10:00 - 14:00"
           ]
         },
         {
@@ -207,9 +138,30 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Julian Camarillo 6B",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
-            "10:00 - 14:00"
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Embajadores, 88-90",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Pl. Republica Dominicana 2",
+          "times": [
+            "16:45 - 21:00"
           ]
         },
         {
@@ -233,51 +185,9 @@
       "items": [
         {
           "city": "Madrid",
-          "address": "Pl. Republica Dominicana 2",
+          "address": "Av. Puerta De Hierro S/N",
           "times": [
-            "16:45 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Cea Bermudez 17",
-          "times": [
-            "15:04 - 20:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Rioja esq. C.Corbeta",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Principe Carlos,40",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
-          "times": [
-            "9:00 - 20:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Ribera Del Loira,4-6",
-          "times": [
-            "9:45 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. San Máximo 11",
-          "times": [
-            "10:00 - 14:00"
+            "10:30 - 20:15"
           ]
         },
         {
@@ -289,9 +199,16 @@
         },
         {
           "city": "Madrid",
-          "address": "Av. Puerta De Hierro S/N",
+          "address": "C. San Máximo 11",
           "times": [
-            "10:30 - 20:15"
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Ribera Del Loira,4-6",
+          "times": [
+            "9:45 - 14:00"
           ]
         },
         {
@@ -299,6 +216,41 @@
           "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
             "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Principe Carlos,40",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Rioja esq. C.Corbeta",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Cea Bermudez 17",
+          "times": [
+            "15:04 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Pl. Republica Dominicana 2",
+          "times": [
+            "16:45 - 21:00"
           ]
         }
       ]
@@ -308,9 +260,9 @@
       "items": [
         {
           "city": "Madrid",
-          "address": "Av. De Bruselas Esq. Pza Venecia",
+          "address": "Av. Del Valle 28",
           "times": [
-            "17:00 - 21:00"
+            "10:00 - 14:00"
           ]
         },
         {
@@ -322,16 +274,16 @@
         },
         {
           "city": "Madrid",
-          "address": "Pl. Republica Dominicana 2",
+          "address": "Av. De Bruselas Esq. Pza Venecia",
           "times": [
-            "16:45 - 21:00"
+            "17:00 - 21:00"
           ]
         },
         {
           "city": "Madrid",
-          "address": "C. Marques De Corbera,45-47",
+          "address": "Pl. Republica Dominicana 2",
           "times": [
-            "17:00 - 21:00"
+            "16:45 - 21:00"
           ]
         },
         {
@@ -350,9 +302,9 @@
         },
         {
           "city": "Madrid",
-          "address": "Av. Del Valle 28",
+          "address": "C. Marques De Corbera,45-47",
           "times": [
-            "10:00 - 14:00"
+            "17:00 - 21:00"
           ]
         },
         {
@@ -392,9 +344,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
+          "address": "C. Ferrocarril, 7",
           "times": [
-            "9:00 - 20:30"
+            "17:00 - 21:00"
           ]
         },
         {
@@ -406,16 +358,16 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Ferrocarril, 7",
+          "address": "C. Golondrina Esquina Av. del Talgo",
           "times": [
             "17:00 - 21:00"
           ]
         },
         {
           "city": "Madrid",
-          "address": "C. Golondrina Esquina Av. del Talgo",
+          "address": "C. Juan Montalvo 3",
           "times": [
-            "17:00 - 21:00"
+            "9:00 - 20:30"
           ]
         },
         {
