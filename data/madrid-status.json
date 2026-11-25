@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T18:59:01Z",
+  "updated_at": "2026-11-25T18:03:56Z",
   "source": "https://www.donarsangre.org/",
   "levels": [
     {
@@ -45,13 +45,13 @@
   ],
   "mobile_points": [
     {
-      "date": "Martes,24 de noviembre",
+      "date": "Miércoles,25 de noviembre",
       "items": [
         {
-          "city": "Alcobendas",
-          "address": "Av. De La Vega, 2-4",
+          "city": "Madrid",
+          "address": "Av. Puerta De Hierro S/N",
           "times": [
-            "10:00 - 13:45"
+            "10:30 - 20:15"
           ]
         },
         {
@@ -59,109 +59,6 @@
           "address": "C. Julian Camarillo 6B",
           "times": [
             "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "Pl. Republica Dominicana 2",
-          "times": [
-            "16:45 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Embajadores, 88-90",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Juan De Mariana 17B",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
-          "times": [
-            "9:00 - 20:30"
-          ]
-        },
-        {
-          "city": "Pinto",
-          "address": "Av. Pintor Antonio Lopez",
-          "times": [
-            "17:00 - 20:45"
-          ]
-        },
-        {
-          "city": "Tres Cantos",
-          "address": "Av. Colmenar Viejo Esq. C.Maliciosa",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        }
-      ]
-    },
-    {
-      "date": "Miércoles,25 de noviembre",
-      "items": [
-        {
-          "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "Pl. Republica Dominicana 2",
-          "times": [
-            "16:45 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Cea Bermudez 17",
-          "times": [
-            "15:04 - 20:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Rioja esq. C.Corbeta",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Principe Carlos,40",
-          "times": [
-            "17:00 - 21:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
-          "times": [
-            "9:00 - 20:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Ribera Del Loira,4-6",
-          "times": [
-            "9:45 - 14:00"
           ]
         },
         {
@@ -173,16 +70,51 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Julian Camarillo 6B",
+          "address": "C. Ribera Del Loira,4-6",
           "times": [
-            "10:00 - 14:00"
+            "9:45 - 14:00"
           ]
         },
         {
           "city": "Madrid",
-          "address": "Av. Puerta De Hierro S/N",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
-            "10:30 - 20:15"
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Principe Carlos,40",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Rioja esq. C.Corbeta",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Cea Bermudez 17",
+          "times": [
+            "15:04 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Pl. Republica Dominicana 2",
+          "times": [
+            "16:45 - 21:00"
           ]
         }
       ]
@@ -192,14 +124,28 @@
       "items": [
         {
           "city": "Madrid",
-          "address": "Av. De La Peseta,68",
+          "address": "Av. Del Valle 28",
           "times": [
-            "17:00 - 21:00"
+            "10:00 - 14:00"
           ]
         },
         {
           "city": "Madrid",
-          "address": "Av. De Bruselas Esq. Pza Venecia",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Marques De Corbera,45-47",
           "times": [
             "17:00 - 21:00"
           ]
@@ -213,28 +159,14 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
+          "address": "Av. De Bruselas Esq. Pza Venecia",
           "times": [
-            "9:00 - 20:30"
+            "17:00 - 21:00"
           ]
         },
         {
           "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "Av. Del Valle 28",
-          "times": [
-            "10:00 - 14:00"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C. Marques De Corbera,45-47",
+          "address": "Av. De La Peseta,68",
           "times": [
             "17:00 - 21:00"
           ]
@@ -276,14 +208,21 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Golondrina Esquina Av. del Talgo",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
           "times": [
-            "17:00 - 21:00"
+            "11:00 - 20:45"
           ]
         },
         {
           "city": "Madrid",
-          "address": "C. Adolfo Bioy Casares 2,",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Golondrina Esquina Av. del Talgo",
           "times": [
             "17:00 - 21:00"
           ]
@@ -297,16 +236,9 @@
         },
         {
           "city": "Madrid",
-          "address": "C. Juan Montalvo 3",
+          "address": "C. Adolfo Bioy Casares 2,",
           "times": [
-            "9:00 - 20:30"
-          ]
-        },
-        {
-          "city": "Madrid",
-          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
-          "times": [
-            "11:00 - 20:45"
+            "17:00 - 21:00"
           ]
         },
         {
@@ -401,6 +333,487 @@
           "address": "Plaza Mayor del Molar",
           "times": [
             "10:15 - 13:45"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Lunes,30 de noviembre",
+      "items": [
+        {
+          "city": "Madrid",
+          "address": "Av. Aragon 328",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Escalona 59",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Sobrado 2",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Alan Turing A3 - Km6 -",
+          "times": [
+            "10:00 - 14:00",
+            "16:00 - 20:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Av. Logroño 120",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Toledo 153",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Escalona 59 junto Iglesia",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Martes, 1 de diciembre",
+      "items": [
+        {
+          "city": "Alcorcón",
+          "address": "C. Estrasburgo 6",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Boadilla del Monte",
+          "address": "Glorieta Arenas de San Pedro",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Santo Domingo El Savio 2",
+          "times": [
+            "9:45 - 14:00",
+            "16:45 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "P.º Castellana, 102",
+          "times": [
+            "9:45 - 14:15"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Torrejón de Ardoz",
+          "address": "C. Londres,S/N",
+          "times": [
+            "17:00 - 20:45"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Miércoles, 2 de diciembre",
+      "items": [
+        {
+          "city": "Coslada",
+          "address": "Av. De Los Principes De España 45",
+          "times": [
+            "17:15 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Los Astros 5",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. José Ortega y Gasset 100",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Payaso Fofo S/N",
+          "times": [
+            "16:00 - 20:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Alcalá 339",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Paseo de Extremadura 407-409",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Móstoles",
+          "address": "Av. Constitucion,74",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "San Martín de Valdeiglesias",
+          "address": "Carretera de Toledo,",
+          "times": [
+            "17:45 - 20:15"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Jueves, 3 de diciembre",
+      "items": [
+        {
+          "city": "Fuenlabrada",
+          "address": "C. Leganes,51",
+          "times": [
+            "17:15 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Av. Pio XII 41",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Orense 41-43",
+          "times": [
+            "9:45 - 14:15"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Amaltea 32",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "P.º Castellana, 24",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Lopez De Hoyos 132",
+          "times": [
+            "16:45 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Caramuel Nº7",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Santa Virgilia Esq.C.Los Arcos",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Rozas de Madrid (Las)",
+          "address": "Av. Camilo Jose Cela,9",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Torrejón de Ardoz",
+          "address": "C. De San Fernando 1",
+          "times": [
+            "10:00 - 14:00",
+            "16:00 - 20:00"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Viernes, 4 de diciembre",
+      "items": [
+        {
+          "city": "Alcorcón",
+          "address": "Avda Libertad",
+          "times": [
+            "10:00 - 14:00",
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Alcorcón",
+          "address": "Avda Lisboa,15",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Fuenlabrada",
+          "address": "Av. Pablo Iglesias",
+          "times": [
+            "17:15 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Princesa 61",
+          "times": [
+            "9:45 - 14:00",
+            "16:45 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Juan Montalvo 3",
+          "times": [
+            "9:00 - 20:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Silvano,77 -",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Monasterio De Arlanza 20",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Orense 16",
+          "times": [
+            "16:30 - 21:15"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Marcelo Usera 68-66",
+          "times": [
+            "17:00 - 21:00"
+          ]
+        },
+        {
+          "city": "Pinto",
+          "address": "Av. Pablo Picasso",
+          "times": [
+            "17:00 - 20:45"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Sábado, 5 de diciembre",
+      "items": [
+        {
+          "city": "Colmenar de Oreja",
+          "address": "Gta. 2 De Mayo",
+          "times": [
+            "10:15 - 13:30"
+          ]
+        },
+        {
+          "city": "Guadalix de la Sierra",
+          "address": "Pl. Consistorial",
+          "times": [
+            "10:15 - 13:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "Pl. Santa Cruz",
+          "times": [
+            "9:45 - 14:00"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Fuencarral,121",
+          "times": [
+            "16:45 - 21:15"
+          ]
+        },
+        {
+          "city": "Torrelodones",
+          "address": "C. Jesusa Lara",
+          "times": [
+            "10:00 - 14:00"
+          ]
+        },
+        {
+          "city": "Villaconejos",
+          "address": "Pl. Mayor Jto Ayto",
+          "times": [
+            "10:20 - 13:30"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Domingo, 6 de diciembre",
+      "items": [
+        {
+          "city": "Campo Real",
+          "address": "Pl. Mayor",
+          "times": [
+            "10:30 - 13:30"
+          ]
+        },
+        {
+          "city": "Escorial (El)",
+          "address": "Pl. De España",
+          "times": [
+            "10:15 - 13:30"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C.Gran Vía esquina C. Montera, Red de San Luis",
+          "times": [
+            "11:00 - 20:45"
+          ]
+        },
+        {
+          "city": "Madrid",
+          "address": "C. Fuencarral,121",
+          "times": [
+            "16:45 - 21:15"
+          ]
+        },
+        {
+          "city": "Morata De Tajuña",
+          "address": "Plaza de la Cultura",
+          "times": [
+            "10:15 - 13:04"
+          ]
+        },
+        {
+          "city": "Navacerrada",
+          "address": "P.º De Los Españoles",
+          "times": [
+            "10:15 - 13:45"
+          ]
+        },
+        {
+          "city": "Pozuelo de Alarcón",
+          "address": "C. Volturno Nº 2",
+          "times": [
+            "10:00 - 14:00"
           ]
         }
       ]
